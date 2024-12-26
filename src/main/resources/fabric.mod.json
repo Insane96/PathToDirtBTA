@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "pathtodirt",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Path to Dirt",
+  "description": "Allow turning paths and tilled dirt back to dirt with shovels.",
   "authors": [
-    "Turnip Labs"
+    "Insane96MCP"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"insane96mcp.pathtodirt.PathToDirt"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"insane96mcp.pathtodirt.PathToDirt"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"insane96mcp.pathtodirt.PathToDirt"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"insane96mcp.pathtodirt.PathToDirt"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"pathtodirt.mixins.json"
   ],
 
   "depends": {
