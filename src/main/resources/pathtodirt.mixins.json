@@ -4,7 +4,7 @@
   "package": "insane96mcp.pathtodirt.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "BlockMixin"
+    "ItemToolShovelMixin"
   ],
   "client": [
   ],
